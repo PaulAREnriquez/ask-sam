@@ -15,7 +15,7 @@
           "Good evening"
         ],
         "responses": [
-          "Hey :-)",
+          "Hey, welcome to our shop",
           "Hello, thanks for visiting",
           "Hi there, what can I do for you?",
           "Hi there, how can I help?"
@@ -40,11 +40,21 @@
         "patterns": [
           "Which items do you have?",
           "What kinds of items are there?",
-          "What do you sell?"
+          "What do you sell?",
+          "Do you have any drinks?",
+          "What do you have here?",
+          "What is available?",
+          "What can I order?",
+          "What is your best-seller?",
+          "Do you have something to eat?",
+          "Do you have something to drink?",
+          "Do you have anything hot here?",
+          "What can you recommend?",
+          "What should I eat today?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "We sell coffee, tea and moist cake",
+          "We have coffee, tea and moist cake"
         ]
       },
       {
@@ -53,7 +63,9 @@
           "Do you take credit cards?",
           "Do you accept Mastercard?",
           "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Are you cash only?",
+          "How do I pay",
+          "What are your payment methods?"
         ],
         "responses": [
           "We accept VISA, Mastercard and Paypal",
@@ -65,11 +77,12 @@
         "patterns": [
           "How long does delivery take?",
           "How long does shipping take?",
-          "When do I get my delivery?"
+          "When do I get my delivery?",
+          "Do you ship?"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "Yes, delivery takes 2-4 days",
+          "Yes, shipping takes 2-4 days"
         ]
       },
       {
