@@ -58,7 +58,13 @@ def get_response(msg):
             # we check if the tag we have is equal to a tag key, this can also be written as tag in intent["tag"]
             # although intent["tag"] is a string, that's why it's more reasonable to write it as written below
             if tag == intent["tag"]: 
-                return random.choice(intent['responses']) # we return a random response
+                selected_response = random.choice(
+                    intent["responses"]
+                )  # we return a random response
+
+                # Extract the text and link (if available) from the selected response
+                response_text = selected_response["text"]
+                return response_text
     else:
         return "Sorry, but I do not understand..."
 
