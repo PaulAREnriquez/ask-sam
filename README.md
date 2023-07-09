@@ -1,6 +1,6 @@
-Ask Sam v.1
+Hello Sophia v.1
 
-A simple conversational chatbot developed as a natural language processing personal project.
+A simple conversational chatbot developed as a natural language processing personal project. Sophia is a customer assistant at Goldilocks, and will try to answer your questions based on the data she's been trained on.
 
 Training data can be found in `intents.json`, which can be edited to fit any use case. Retraining is needed when done so. The current implementation is a simple collection of patterns and responses arranged according to topics called `tags`.
 

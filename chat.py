@@ -26,7 +26,7 @@ model.load_state_dict(model_state)
 # Evaluation
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Sophia"
 threshold = 0.75
 def get_response(msg):
 

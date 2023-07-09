@@ -19,13 +19,13 @@ class ChatApp:
         self.window.mainloop()
 
     def _setup_main_window(self):
-        self.window.title("Ask Sam")
+        self.window.title("Hello Sophia")
         self.window.resizable(width=True, height=True)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR, 
-        text="Welcome", font=FONT_BOLD, pady=10)
+        text="Welcome to Goldilocks!", font=FONT_BOLD, pady=10)
 
         head_label.place(relwidth=1)
 
